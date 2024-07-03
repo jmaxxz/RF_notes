@@ -1,4 +1,4 @@
-Casablanca Fan Company, wireless remote
+# Casablanca Fan Company, wireless remote
 
 | Dip    | Button mask | Button En |
 | ------ | ----------- | --------- |
@@ -10,17 +10,20 @@ Casablanca Fan Company, wireless remote
 | ?????1 | 111101      | Off |
 | ?????1 | 111110      | Toggle Light |
 
-Encoder: Holtek HT12E HT12D
-Frequency: 303.875Mhz
-TE: 311 microseconds
-Mode: AM
-
-Remote manual: https://s3-us-west-2.amazonaws.com/valuebros/manuals/W-42_VToneOperation.pdf
-Datasheet: https://www.holtek.com/webapi/116711/HT12D_Fv140.pdf
-FCC: https://fcc.report/FCC-ID/H2WCASA5T
+- Chip: Holtek HT12E HT12D
+- Frequency: 303.875Mhz
+- TE: 311 microseconds
+- Mode: AM
 
 
-Example .sub file
+## Links
+
+- Remote manual: https://s3-us-west-2.amazonaws.com/valuebros/manuals/W-42_VToneOperation.pdf
+- Datasheet: https://www.holtek.com/webapi/116711/HT12D_Fv140.pdf
+- FCC: https://fcc.report/FCC-ID/H2WCASA5T
+
+
+## Example .sub file
 
 ```txt
 Filetype: Flipper SubGhz Key File
